@@ -36,13 +36,13 @@ The fine-tuned models are pushed to huging face:
 
 ## Other items to consider
 The models have huge potential for improvement and optimization. 
-Ablation tests in *[Ablation testing - Long Read - Logistic Regression.ipynb]()* and *[Ablation testing - Short Read - Logistic Regression.ipynb]()* prove that the fine-tuning was successfull. Additional data could definetly help improve model's performance and help it generalize more on unseen classes as well.
+Ablation tests in *[Ablation testing - Long Read - Logistic Regression.ipynb](https://github.com/vedantMahangade/NucArg-Antibiotic-Resistance-Detection/blob/main/scripts/Ablation%20testing%20-%20Long%20Read%20-%20Logistic%20Regression.ipynb)* and *[Ablation testing - Short Read - Logistic Regression.ipynb](https://github.com/vedantMahangade/NucArg-Antibiotic-Resistance-Detection/blob/main/scripts/Ablation%20testing%20-%20Short%20Read%20-%20Logistic%20Regression.ipynb)* prove that the fine-tuning was successfull. Additional data could definetly help improve model's performance and help it generalize more on unseen classes as well.
 
-The script *[Ablation testing - Long Read - Neuronal.ipynb]()* performs neuronal ablation and the results indicate much of the model's layer are redundunt and the model has high potential for optimization through pruning.
+The script *[Ablation testing - Long Read - Neuronal.ipynb](https://github.com/vedantMahangade/NucArg-Antibiotic-Resistance-Detection/blob/main/scripts/Ablation%20testing%20-%20Long%20Read%20-%20Neuronal.ipynb)* performs neuronal ablation and the results indicate much of the model's layer are redundunt and the model has high potential for optimization through pruning.
 
 ## Deployment
-Last but not least, a streamlit app that inferences both short read and long read model has been deployed to hugging face spaces:
+Last but not least, a streamlit app that inferences both short read and long read model has been deployed to hugging face spaces to play arround with:
 
 [NucArg Streamlit App](https://huggingface.co/spaces/vedantM/NucArg)
 
-Feel free to play arround with the model and the app. Do reachout for any suggestions and improvements.
+Do reachout for any suggestions and improvements.
